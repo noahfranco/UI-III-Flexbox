@@ -64,3 +64,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+ body {
+	width: 950px; 
+ }
+.header2 {
+	display: flex; 
+	justify-content: space-evenly; 
+	margin: 0 auto; 
+	padding: 20px; 
+}
+
+.header2 img{
+	display: flex; 
+	justify-content: flex-end; 
+}
+
+a {
+	color: gray; 
+	
+}
+
+a:hover {
+	color: blue; 
+}
+
+#coverphoto {
+	display: flex; 
+	justify-content: center; 
+	margin: 30px; 
+	padding: 5px; 
+	width: 100%; 
+}
+
+.container {
+	/* flex: 0 0 200px; */
+	display: flex; 
+	justify-content: center; 
+	margin: 10px;
+	padding: auto; 
+	height: auto; 
+}
+
+ .services1 { 
+	display: flex; 
+	 flex-direction: column; 
+	 justify-content: center; 
+	 margin: 10px 5px 10px 5px; 
+	 padding: 30px 100px 30px 100px; 
+	 width: 100%; 
+	font-size: 18px; 
+	border-bottom: 2px solid black; 
+ }   
+
+ h2 {
+	 font-size: 20px; 
+ }
+
+ .container2 {
+	display: flex; 
+	flex-flow: row wrap; 
+	justify-content: space-between; 
+	/* width: 745px;  */
+	height: auto;  
+ }
+
+.servicesweoffer {
+    margin: 10px;
+    border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	width: 430px;  
+	margin: 10px; 
+	padding: 30px;
+	background: lightgray; 
+	
+}
+
+ /*  
+.serviceweoffer p{
+	
+}
+
+.servicesweoofer a{
+
+}
+ */
+
+ .footerimg{
+	display: flex; 
+	justify-content: flex-end; 
+ }
+ 
