@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
  body {
-	width: 950px; 
+	width: 1000px; 
+	margin: 0 auto; 
  }
 .header2 {
 	display: flex; 
@@ -140,18 +141,40 @@ a:hover {
 	
 }
 
- /*  
-.serviceweoffer p{
-	
-}
+ .borderfooter { 
+	border-top: 2px solid black; 
+	margin: 20px; 
+	padding: 10px; 
+ }  
 
-.servicesweoofer a{
 
-}
- */
 
- .footerimg{
+.motherfooter {
 	display: flex; 
-	justify-content: flex-end; 
- }
- 
+	justify-content: flex-end;
+	margin: 0 auto; 
+	padding: 40px; 
+}
+
+.copyright {
+	text-align: center; 
+}
+
+
+.serviceweoffer p{
+	color: black; 
+}
+
+li {
+	list-style-type: square; 
+}
+
+
+.servicesweoffer a{
+	border: double blue; 
+	display: flex; 
+	justify-content: space-around;
+	background: lightblue; 
+	color: black; 
+	margin: 10px; 
+
